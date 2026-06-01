@@ -1,16 +1,18 @@
 import StrategiesSlide from "@/components/StrategiesSlide";
-export default function Slide30() {
+export default function Slide31() {
   const strategies = ["Break it down", "Routine", "The 10min Trick", "Accountability", "Discipline"];
   return (
     <StrategiesSlide
       strategies={strategies}
-      activeIndex={1}
-      headline="Routine"
+      activeIndex={2}
+      headline="The 10min Trick"
       body={
         <ul className="list-disc pl-6 space-y-4">
-          <li>Habits beat procrastination</li>
-          <li>Consistently do same things roughly same time every day</li>
-          <li>2 weeks - 1 month until it becomes easy</li>
+          <li>Set a timer: 10min - or whatever amount of time feels comfortable to endure with task at hand</li>
+          <li>Once passed, if you don't feel like it, you can stop working and do whatever you desire more.</li>
+          <li>Most times, you're invested and keep going longer.</li>
+          <li>BUT: don't deceive yourself. Truly don't feel like it? Do something fun!</li>
+          <li>Doesn't work well for chores, passion projects only!</li>
         </ul>
       }
     />

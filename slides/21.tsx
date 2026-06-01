@@ -1,4 +1,4 @@
-import VideoSlide from "@/components/VideoSlide";
-export default function Slide21() {
-  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/trailFX.mp4" />;
+import TitleSlide from "@/components/TitleSlide";
+export default function Slide22() {
+  return <TitleSlide headline="Compositing" bgImage="/images/bg/5.jpg" borderOverlay={true} />;
 }

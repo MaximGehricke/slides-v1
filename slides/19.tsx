@@ -1,4 +1,4 @@
-import TitleSlide from "@/components/TitleSlide";
-export default function Slide19() {
-  return <TitleSlide headline="FX" bgImage="/images/bg/13.jpg" />;
+import VideoSlide from "@/components/VideoSlide";
+export default function Slide20() {
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/portalFX.mp4" />;
 }

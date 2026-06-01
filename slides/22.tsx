@@ -1,4 +1,4 @@
-import TitleSlide from "@/components/TitleSlide";
-export default function Slide22() {
-  return <TitleSlide headline="Compositing" bgImage="/images/bg/5.jpg" borderOverlay={true} />;
+import ImageSlide from "@/components/ImageSlide";
+export default function Slide23() {
+  return <ImageSlide src="/images/complayers.PNG" />;
 }

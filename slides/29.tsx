@@ -1,16 +1,16 @@
 import StrategiesSlide from "@/components/StrategiesSlide";
-export default function Slide29() {
+export default function Slide30() {
   const strategies = ["Break it down", "Routine", "The 10min Trick", "Accountability", "Discipline"];
   return (
     <StrategiesSlide
       strategies={strategies}
-      activeIndex={0}
-      headline="Break it down"
+      activeIndex={1}
+      headline="Routine"
       body={
         <ul className="list-disc pl-6 space-y-4">
-          <li>Break tasks down into steps so small, brain can't argue with them</li>
-          <li>Some mornings: first task simply "open Maya"</li>
-          <li>Completing task: tiny dopamine reward, reduces friction</li>
+          <li>Habits beat procrastination</li>
+          <li>Consistently do same things roughly same time every day</li>
+          <li>2 weeks - 1 month until it becomes easy</li>
         </ul>
       }
     />

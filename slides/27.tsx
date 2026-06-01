@@ -1,4 +1,9 @@
-import TitleSlide from "@/components/TitleSlide";
-export default function Slide27() {
-  return <TitleSlide headline="The mental challenge of solo-dev" bgImage="/images/bg/10.jpg" borderOverlay={true} />;
+import StrategiesSlide from "@/components/StrategiesSlide";
+export default function Slide28() {
+  const strategies = ["Break it down", "Routine", "The 10min Trick", "Accountability", "Discipline"];
+  return (
+    <StrategiesSlide
+      strategies={strategies}
+    />
+  );
 }
