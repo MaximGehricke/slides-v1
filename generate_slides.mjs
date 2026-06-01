@@ -25,17 +25,17 @@ export default function Slide01() {
   // 2. Video: SEN_reel.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide02() {
-  return <VideoSlide src="/videos/SEN_reel.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/SEN_reel.mp4" />;
 }`,
   // 3. Video: bestOfFS.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide03() {
-  return <VideoSlide src="/videos/bestOfFS.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/bestOfFS.mp4" />;
 }`,
   // 4. Video: SEN_reel.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide04() {
-  return <VideoSlide src="/videos/SEN_reel.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/SEN_reel.mp4" />;
 }`,
   // 5. Text: Three major parts
   `import TextSlide from "@/components/TextSlide";
@@ -61,12 +61,12 @@ export default function Slide06() {
   // 7. Video: uni.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide07() {
-  return <VideoSlide src="/videos/uni.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/uni.mp4" />;
 }`,
   // 8. Video: SEN_reel.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide08() {
-  return <VideoSlide src="/videos/SEN_reel.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/SEN_reel.mp4" />;
 }`,
   // 9. Title: Technical
   `import TitleSlide from "@/components/TitleSlide";
@@ -76,17 +76,17 @@ export default function Slide09() {
   // 10. Video: cocnepts_story.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide10() {
-  return <VideoSlide src="/videos/cocnepts_story.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/cocnepts_story.mp4" />;
 }`,
   // 11. Video: CHRs.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide11() {
-  return <VideoSlide src="/videos/CHRs.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/CHRs.mp4" />;
 }`,
   // 12. Video: ASSTS.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide12() {
-  return <VideoSlide src="/videos/ASSTS.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/ASSTS.mp4" />;
 }`,
   // 13. Title: Animation
   `import TitleSlide from "@/components/TitleSlide";
@@ -96,12 +96,12 @@ export default function Slide13() {
   // 14. Video: animBlocking.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide14() {
-  return <VideoSlide src="/videos/animBlocking.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/animBlocking.mp4" />;
 }`,
   // 15. Video: animSplinePolish.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide15() {
-  return <VideoSlide src="/videos/animSplinePolish.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/animSplinePolish.mp4" />;
 }`,
   // 16. Title: Lighting
   `import TitleSlide from "@/components/TitleSlide";
@@ -111,12 +111,12 @@ export default function Slide16() {
   // 17. Video: lgt_clouds.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide17() {
-  return <VideoSlide src="/videos/lgt_clouds.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/lgt_clouds.mp4" />;
 }`,
   // 18. Video: lgt_fire.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide18() {
-  return <VideoSlide src="/videos/lgt_fire.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/lgt_fire.mp4" />;
 }`,
   // 19. Title: FX
   `import TitleSlide from "@/components/TitleSlide";
@@ -126,12 +126,12 @@ export default function Slide19() {
   // 20. Video: portalFX.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide20() {
-  return <VideoSlide src="/videos/portalFX.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/portalFX.mp4" />;
 }`,
   // 21. Video: trailFX.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide21() {
-  return <VideoSlide src="/videos/trailFX.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/trailFX.mp4" />;
 }`,
   // 22. Title: Compositing
   `import TitleSlide from "@/components/TitleSlide";
@@ -146,12 +146,12 @@ export default function Slide23() {
   // 24. Video: BD_PortalDistortion.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide24() {
-  return <VideoSlide src="/videos/BD_PortalDistortion.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/BD_PortalDistortion.mp4" />;
 }`,
   // 25. Video: explosion.mp4
   `import VideoSlide from "@/components/VideoSlide";
 export default function Slide25() {
-  return <VideoSlide src="/videos/explosion.mp4" />;
+  return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/explosion.mp4" />;
 }`,
   // 26. Text: Debugging Process
   `import TextSlide from "@/components/TextSlide";
@@ -322,7 +322,7 @@ export default function Slide34() {
   // 35. Title: Generalist or Specialize?
   `import TitleSlide from "@/components/TitleSlide";
 export default function Slide35() {
-  return <TitleSlide headline="Generalist or Specialize?" bgImage="" />;
+  return <TitleSlide headline="Bonus Slide: Generalist or Specialize?" bgImage="" />;
 }`,
   // 36. Thank You
   `import TitleSlide from "@/components/TitleSlide";
