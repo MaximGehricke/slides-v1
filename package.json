@@ -23,5 +23,11 @@
     "tailwindcss": "^4.2.0",
     "typescript": "5.7.3"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "workerd"
+    ]
+  },
   "packageManager": "pnpm@11.2.2"
 }
