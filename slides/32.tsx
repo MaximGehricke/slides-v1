@@ -8,10 +8,10 @@ export default function Slide32() {
       headline="Accountability"
       body={
         <ul className="list-disc pl-6 space-y-4">
-          <li>The "sledgehammer method" of motivation</li>
           <li>Tell EVERYONE you are making the project</li>
-          <li>If you care about reputation, you will feel pressure to deliver when they keep asking about progress</li>
-          <li>Danger! You are fully committed!</li>
+          <li>If you care about your reputation, you will feel pressure to deliver</li>
+          <li>people will keep asking about progress</li>
+          <li>Danger! You have to be fully committed!</li>
         </ul>
       }
     />

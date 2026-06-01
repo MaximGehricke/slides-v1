@@ -5,7 +5,7 @@ export default function Slide30() {
     <StrategiesSlide
       strategies={strategies}
       activeIndex={1}
-      headline="Routine matters - Consistency is key"
+      headline="Routine"
       body={
         <ul className="list-disc pl-6 space-y-4">
           <li>Habits beat procrastination</li>
