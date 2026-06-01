@@ -10,10 +10,12 @@ export default function TitleSlide({
   headline,
   bgImage,
   subtitle,
+  borderOverlay,
 }: {
   headline: string;
   bgImage: string;
   subtitle?: string;
+  borderOverlay?: boolean;
 }) {
   return (
     <div className="relative flex h-screen w-screen items-center justify-center overflow-hidden">
@@ -28,6 +30,11 @@ export default function TitleSlide({
 
       {/* Shimmer layer */}
       <div className="title-shimmer absolute inset-0" />
+
+      {/* Thin, rounded white line border overlay */}
+      {borderOverlay && (
+        <div className="absolute inset-24 pointer-events-none rounded-3xl border-2 border-white/25 z-20" />
+      )}
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center gap-4 px-8 text-center">

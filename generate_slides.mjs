@@ -20,7 +20,7 @@ const slideDefs = [
   // 1. Title
   `import TitleSlide from "@/components/TitleSlide";
 export default function Slide01() {
-  return <TitleSlide headline="How to make 3min of animation in just 5 years!" bgImage="" />;
+  return <TitleSlide headline="How to make 3min of animation in just 5 years!" bgImage="/images/bg/1.jpg" />;
 }`,
   // 2. Video: SEN_reel.mp4
   `import VideoSlide from "@/components/VideoSlide";
@@ -53,10 +53,10 @@ export default function Slide05() {
     />
   );
 }`,
-  // 6. Title: Where it started
+  // 6. Title: Where it started (with overlay)
   `import TitleSlide from "@/components/TitleSlide";
 export default function Slide06() {
-  return <TitleSlide headline="Where it started" bgImage="" />;
+  return <TitleSlide headline="Where it started" bgImage="/images/bg/10.jpg" borderOverlay={true} />;
 }`,
   // 7. Video: uni.mp4
   `import VideoSlide from "@/components/VideoSlide";
@@ -68,10 +68,10 @@ export default function Slide07() {
 export default function Slide08() {
   return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/SEN_reel.mp4" />;
 }`,
-  // 9. Title: Technical
+  // 9. Title: Technical (with overlay)
   `import TitleSlide from "@/components/TitleSlide";
 export default function Slide09() {
-  return <TitleSlide headline="Technical" bgImage="" />;
+  return <TitleSlide headline="Technical" bgImage="/images/bg/10.jpg" borderOverlay={true} />;
 }`,
   // 10. Video: cocnepts_story.mp4
   `import VideoSlide from "@/components/VideoSlide";
@@ -91,7 +91,7 @@ export default function Slide12() {
   // 13. Title: Animation
   `import TitleSlide from "@/components/TitleSlide";
 export default function Slide13() {
-  return <TitleSlide headline="Animation" bgImage="" />;
+  return <TitleSlide headline="Animation" bgImage="/images/bg/15.jpg" />;
 }`,
   // 14. Video: animBlocking.mp4
   `import VideoSlide from "@/components/VideoSlide";
@@ -106,7 +106,7 @@ export default function Slide15() {
   // 16. Title: Lighting
   `import TitleSlide from "@/components/TitleSlide";
 export default function Slide16() {
-  return <TitleSlide headline="Lighting" bgImage="" />;
+  return <TitleSlide headline="Lighting" bgImage="/images/bg/9.jpg" />;
 }`,
   // 17. Video: lgt_clouds.mp4
   `import VideoSlide from "@/components/VideoSlide";
@@ -121,7 +121,7 @@ export default function Slide18() {
   // 19. Title: FX
   `import TitleSlide from "@/components/TitleSlide";
 export default function Slide19() {
-  return <TitleSlide headline="FX" bgImage="" />;
+  return <TitleSlide headline="FX" bgImage="/images/bg/13.jpg" />;
 }`,
   // 20. Video: portalFX.mp4
   `import VideoSlide from "@/components/VideoSlide";
@@ -133,10 +133,10 @@ export default function Slide20() {
 export default function Slide21() {
   return <VideoSlide src="https://pub-b7c5f41c03ef46718a1713db88239f83.r2.dev/trailFX.mp4" />;
 }`,
-  // 22. Title: Compositing
+  // 22. Title: Compositing (with overlay)
   `import TitleSlide from "@/components/TitleSlide";
 export default function Slide22() {
-  return <TitleSlide headline="Compositing" bgImage="" />;
+  return <TitleSlide headline="Compositing" bgImage="/images/bg/5.jpg" borderOverlay={true} />;
 }`,
   // 23. Image: complayers.PNG
   `import ImageSlide from "@/components/ImageSlide";
@@ -176,10 +176,10 @@ export default function Slide26() {
     />
   );
 }`,
-  // 27. Title: The mental challenge of making a project of this scale solo.
+  // 27. Title: The mental challenge of making a project of this scale solo (with overlay)
   `import TitleSlide from "@/components/TitleSlide";
 export default function Slide27() {
-  return <TitleSlide headline="The mental challenge of making a project of this scale solo." bgImage="" />;
+  return <TitleSlide headline="The mental challenge of making a project of this scale solo." bgImage="/images/bg/10.jpg" borderOverlay={true} />;
 }`,
   // 28. Strategies: Headlines only
   `import StrategiesSlide from "@/components/StrategiesSlide";
@@ -319,15 +319,15 @@ export default function Slide34() {
     />
   );
 }`,
-  // 35. Title: Generalist or Specialize?
+  // 35. Title: Generalist or Specialize? (with overlay)
   `import TitleSlide from "@/components/TitleSlide";
 export default function Slide35() {
-  return <TitleSlide headline="Bonus Slide: Generalist or Specialize?" bgImage="" />;
+  return <TitleSlide headline="Bonus Slide: Generalist or Specialize?" bgImage="/images/bg/10.jpg" borderOverlay={true} />;
 }`,
-  // 36. Thank You
+  // 36. Thank You (with overlay)
   `import TitleSlide from "@/components/TitleSlide";
 export default function Slide36() {
-  return <TitleSlide headline="Thank You!" bgImage="" />;
+  return <TitleSlide headline="Thank You!" bgImage="/images/bg/10.jpg" borderOverlay={true} />;
 }`
 ];
 
