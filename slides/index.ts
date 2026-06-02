@@ -38,7 +38,6 @@ import Slide32 from "@/slides/32";
 import Slide33 from "@/slides/33";
 import Slide34 from "@/slides/34";
 import Slide35 from "@/slides/35";
-import Slide36 from "@/slides/36";
 
 const slides: ComponentType<any>[] = [
   Slide01,
@@ -75,8 +74,7 @@ const slides: ComponentType<any>[] = [
   Slide32,
   Slide33,
   Slide34,
-  Slide35,
-  Slide36
+  Slide35
 ];
 
 export default slides;
